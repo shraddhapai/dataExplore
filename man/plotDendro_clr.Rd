@@ -15,7 +15,9 @@ should contain column names for groupBy. Note that groupBy columns
 should be factors}
 
 \item{groupPal}{(list) keys are columns in pheno by which data are to
-be grouped. Values are RColorBrewer palette names}
+be grouped. Values could be RColorBrewer palette names (char length 1)
+or a vector of colours to use as the palette. In this case
+the palette will follow the order of the variable levels}
 
 \item{topVar}{(integer) top most-variable probes to show}
 

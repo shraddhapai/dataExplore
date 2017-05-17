@@ -10,6 +10,9 @@ pcaColored(m, mdata, groupToPlot, cex = 0.5, ...)
 \item{m}{(matrix)}
 
 \item{mdata}{(data.frame) metadata. rownames(mdata)=colnames(m)}
+
+\item{groupToPlot}{(char) vector of metadata variables
+using which to colour-code samples}
 }
 \value{
 No value. side effect of plotting pca graph
