@@ -2,6 +2,8 @@
 #'
 #' @param m (matrix) 
 #' @param mdata (data.frame) metadata. rownames(mdata)=colnames(m)
+#' @param groupToPlot (char) vector of metadata variables
+#' using which to colour-code samples
 #' @import RColorBrewer
 #' @return No value. side effect of plotting pca graph
 #' @export
