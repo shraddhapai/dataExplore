@@ -35,7 +35,7 @@ plotDendro_clr <- function(M, pheno, groupPal,topVar=10*1000L, verbose=TRUE,
 	clrmat[ctr,]	<- pal[as.integer(pheno[,gpCol])]
 	ctr <- ctr+1
 	}
-	clrmat <- clrmat[nrow(clrmat):1,]
+	clrmat <- clrmat[nrow(clrmat):1,,drop=FALSE]
 	colnames(clrmat) <- colnames(M)
 
 	var 	<- getVariance(M)
