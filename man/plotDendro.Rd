@@ -21,4 +21,3 @@ plotDendro(m, distFun = function(x) {     1 - cor(x) },
 \description{
 plot dendrogram
 }
-

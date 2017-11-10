@@ -12,4 +12,3 @@ getVariance(b)
 \description{
 compute row-wise variance
 }
-

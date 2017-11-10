@@ -20,4 +20,3 @@ No value. side effect of plotting pca graph
 \description{
 PCA with samples coloured by group properties
 }
-

@@ -31,4 +31,3 @@ No value. Side effect of printing a dendrogram)
 \description{
 dendrogram from unsupervised clustering
 }
-

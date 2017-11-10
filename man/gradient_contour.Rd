@@ -48,4 +48,3 @@ plotting (e.g. 0.1 shows 10% of points)}
 \description{
 plot contour map for 2D data
 }
-
