@@ -1,10 +1,10 @@
 Package: dataExplore
 Title: Stats and Viz for Data Exploration
-Version: 0.0.0.9000
+Version: 0.0.0.9100
 Authors@R: person("Shraddha", "Pai", email = "shraddha.pai@utoronto.ca", role = c("aut", "cre"))
 Description: Mix of commonly-used stats and graphic functions
 Depends:
     R (>= 3.2.4)
 License: GPL>=2.0
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
