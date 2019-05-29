@@ -7,9 +7,10 @@
 gradient_contour(df, ttl = "", type = "fill",
   gradLow = "lightgoldenrodyellow", gradHigh = "mediumblue",
   contourBins = 30L, addPoints = TRUE, downSample = 1,
-  pt_colour = "black", pt_alpha = 1, addFit = TRUE, fitCol = "maroon",
-  ebCol = "mistyrose3", xlab = "x", ylab = "y", xl = NULL, yl = NULL,
-  addZeroRef = TRUE, getObj = FALSE, logLog = FALSE)
+  pt_colour = "black", pt_alpha = 1, addFit = TRUE,
+  fitCol = "maroon", ebCol = "mistyrose3", xlab = "x", ylab = "y",
+  xl = NULL, yl = NULL, addZeroRef = TRUE, getObj = FALSE,
+  logLog = FALSE)
 }
 \arguments{
 \item{df}{(data.frame) with 'x' and 'y' values}

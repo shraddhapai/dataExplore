@@ -4,12 +4,16 @@
 \alias{drawPropCircles}
 \title{draw circle with area proportional to number}
 \usage{
-drawPropCircles(num, sc = 1, ...)
+drawPropCircles(num, sc = 1, ylim = c(-1, 1), texty = 0.5, ...)
 }
 \arguments{
 \item{num}{(numeric) vector of numbers. currently doesn't put labels}
 
 \item{sc}{(numeric) scaling factor}
+
+\item{ylim}{(numeric) plot extent}
+
+\item{texty}{(numeric) position of label above circle}
 
 \item{...}{params for plotrix::draw.circle()}
 }

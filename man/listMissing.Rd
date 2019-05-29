@@ -4,7 +4,8 @@
 \alias{listMissing}
 \title{flags variables and samples exceeding certain level of missingness}
 \usage{
-listMissing(x, maxMissVar = 0.25, maxMissSamp = 0.25, rmMissing = FALSE)
+listMissing(x, maxMissVar = 0.25, maxMissSamp = 0.25,
+  rmMissing = FALSE)
 }
 \arguments{
 \item{x}{(matrix or data.frame) rows are variables, columns are samples
