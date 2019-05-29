@@ -4,7 +4,9 @@
 \alias{pcaColored}
 \title{PCA with samples coloured by group properties}
 \usage{
-pcaColored(m, mdata, groupToPlot, cex = 0.5, ...)
+pcaColored(m, mdata, groupToPlot, cex = 0.5, plotType = "full",
+  bufSpace = 0.01, legendCex = 0.8, center = TRUE, scale = TRUE,
+  pal = "Dark2", ...)
 }
 \arguments{
 \item{m}{(matrix)}
@@ -13,6 +15,19 @@ pcaColored(m, mdata, groupToPlot, cex = 0.5, ...)
 
 \item{groupToPlot}{(char) vector of metadata variables
 using which to colour-code samples}
+
+\item{plotType}{(char, full or point) if "full" plots sample name. If 
+"point", simply plots a dot}
+
+\item{legendCex}{(numeric) cex for legend}
+
+\item{center, scale}{(logical) options to center/scale matrix before PCA
+See prcomp()}
+
+\item{pal}{(char) RColorBrewer2 palette name}
+
+\item{bufType}{(numeric) buffer around the points, by which to extend x/y
+lim. Increase this value to allow space to see the full sample name.}
 }
 \value{
 No value. side effect of plotting pca graph
